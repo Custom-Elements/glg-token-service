@@ -1,0 +1,14 @@
+<link rel="import" href="../node_modules/polymer/polymer.html">
+<link rel="import" href="../node_modules/core-ajax-npm/core-ajax.html">
+
+<polymer-element name="glg-token-service" attributes="tokenizerUrl token">
+  <template>
+    <core-ajax
+      id="tokenizerCall"
+      url="{{tokenizerUrl}}/validate/{{token}}"
+      handleAs="json"
+      on-core-response="{{tokenServiceResponse}}">
+    </core-ajax>
+  </template>
+  <script src="./glg-token-service.litcoffee"></script>
+</polymer-element>

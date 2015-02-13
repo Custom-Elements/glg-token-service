@@ -1,0 +1,14 @@
+{
+  "name": "ui-confirmation-questions",
+  "version": "0.0.0",
+  "dependencies": {
+    "polymer-serve": "git://github.com/custom-elements/polymer-serve",
+    "polymer": "git://github.com/custom-elements/polymer#master",
+    "core-ajax-npm": "git://github.com/custom-elements/core-ajax-npm#master"
+  },
+  "author": "George Toretta <gtoretta@glgroup.com>",
+  "license": "ISC",
+  "scripts": {
+    "test": "polymer-serve ."
+  }
+}

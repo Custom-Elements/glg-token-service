@@ -1,0 +1,30 @@
+<!doctype html>
+
+<html>
+  <head>
+    <title>glg-token-service</title>
+    <link rel="import" href="node_modules/polymer/polymer.html">
+    <link rel="import" href="src/glg-token-service.html">
+    <style>
+      body {
+        font-family: "Helvetica Neue", "Helvetica", Arial;
+        font-size: 12px;
+      }
+      #holder {
+        padding: 4em;
+      }
+    </style>
+  </head>
+  <body unresolved>
+    <div id="holder">      
+       <glg-token-service tokenizerUrl="http://localhost:5000" token="6fd63f8e-b93b-4f45-866d-a7fafafd5236"></glg-token-service>
+    </div>
+    <script>
+      document.addEventListener('polymer-ready', function() {
+        document.addEventListener('decodedToken', function(event) {
+          console.log('decodedToken', event.detail.response);
+        })
+      })
+    </script>
+  </body>
+</html>
