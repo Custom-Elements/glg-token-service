@@ -1,5 +1,5 @@
 {
-  "name": "ui-confirmation-questions",
+  "name": "glg-token-service",
   "version": "0.0.0",
   "dependencies": {
     "polymer-serve": "git://github.com/custom-elements/polymer-serve",
