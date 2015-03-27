@@ -2,7 +2,7 @@
   "name": "glg-token-service",
   "version": "0.0.0",
   "dependencies": {
-    "polymer-serve": "git://github.com/custom-elements/polymer-serve",
+    "polymer-serve": "^0.0.30",
     "polymer": "git://github.com/custom-elements/polymer#master",
     "core-ajax-npm": "git://github.com/custom-elements/core-ajax-npm#master"
   },
